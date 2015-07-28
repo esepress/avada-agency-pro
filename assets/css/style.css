@@ -663,8 +663,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
     display: table;
-    height: 100%;
-    min-height: 100vh;
+    height: calc(100vh - 72px);
     width: 100%;
     position: relative;
     z-index: 1;
@@ -673,7 +672,7 @@ section {
 
 .header-wrapper .header-overlay {
     min-height: 100vh;
-    min-width: 100vw;
+    /*min-width: 100vw;*/
     opacity: 0.4;
     position: absolute;
     top: 0;
